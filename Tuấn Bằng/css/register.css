@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(../img/BINH1781.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.account-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0, 0.58);
+    box-shadow: 0 15px 25px rgba(255,255,255, 0.6);
+    border-radius: 10px;
+    height: 80vh;
+}
+.account-box h1{
+    margin-bottom: 100px;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+.account-box .user-box{
+    position: relative;
+    width: 60%;
+}
+.account-box .user-box input{
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 70px;
+    border: none;
+    border-bottom: #fff 1px solid;
+    outline: none;
+    background: transparent;
+}
+.account-box form button{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+.account-box form button:hover{
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4;
+}
+.selector{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.account{
+    text-decoration: none;
+    color: #fff;
+}
+.account:hover{
+    text-decoration: underline;
+}
+button{
+    border: none;
+    cursor: pointer;
+    background: none;
+}

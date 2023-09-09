@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-menu">
+        <div class="logo">
+          <!-- logo -->
+          <img src="../img/vẽ-con-lân-trung-thu-removebg-preview.png" alt="" />
+        </div>
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input
+            class="search-input"
+            type="text"
+            name="search-city"
+            placeholder="Tên sản phẩm"
+          />
+        </div>
+        <div class="icons"></div>
+      </div>
+      <div class="topic">
+        <h1>Thanh toán</h1>
+      </div>
+      <div class="pay">
+        <div id="sale"></div>
+        <div class="information">
+          <h2>Thông tin khách hàng</h2>
+          <form class="">
+            <h5>Tên người nhận</h5>
+            <input type="text" placeholder="Họ và Tên" />
+
+            <h5>Địa chỉ</h5>
+            <input type="text" placeholder="Địa chỉ" />
+
+            <h5>Số điện thoại</h5>
+            <input type="text" placeholder="Số điện thoại" />
+
+            <h5>Gmail</h5>
+            <input type="text" placeholder="Gmail" />
+
+            <h5>Giá</h5>
+            <input class="price" type="text" readonly="true" disabled />
+          </form>
+          <div class="select">
+            <h5>Phương thước thanh toán</h5>
+            <select class="selections">
+              <option>Tiền mặt</option>
+              <option>Ngân hàng</option>
+              <option>Tài khoản web</option>
+            </select>
+          </div>
+          <button
+            onclick="alert('Purchased successfully');localStorage.removeItem('cart');displayCart()"
+          >
+            Thanh toán
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="../js/cart-mutate.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/data.js"></script>
+    <script src="../js/navbar.js"></script>
+  </body>
+</html>

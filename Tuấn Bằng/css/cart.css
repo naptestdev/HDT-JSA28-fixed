@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .top-menu {
+    margin: auto;
+    width: 1200px;
+    background-color: #cf1e1c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    border: 1px black solid;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-bottom:50px;
+  }
+  
+  .top-menu .page {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .top-menu .page a {
+    color: #fff;
+    margin-right: 30px;
+  }
+  
+  .top-menu .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .top-menu .icons i {
+    padding: 0 16px;
+    cursor: pointer;
+    font-size: 19px;
+    color: antiquewhite;
+  }
+  
+  .line {
+    height: 36px;
+    border-right: 1px white solid;
+  }
+  
+  .logo {
+    height: 36px;
+  }
+  
+  .logo img {
+    height: 45px;
+  }
+  
+  .search-bar {
+    width: 50%;
+    margin: 0px auto;
+    padding-top: 20px;
+  bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    border-bottom: 1px solid white;
+    position: relative;
+  }
+  
+  
+  .search-icon {
+    margin-right: 5px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+  }
+  
+  .search-icon:hover {
+    color: #cacaca;
+  }
+  
+  .search-input {
+    border: 0;
+    outline: 0;
+    padding: 3px 3px 3px 20px;
+    background: transparent;
+    height: 20px;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .search-input::placeholder {
+    color: rgb(206, 206, 206);
+  }
+  .pay{
+    display: flex;
+    flex-direction: row;  
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  .topic{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xx-large;
+  }
+  .information{
+    width: 30%;
+    height: 70vh;
+    border: black 1px solid;
+    border-radius: 5px;
+    background-color: aquamarine;
+  }
+  #sale{
+    width: 70%;
+  }
+  .information h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .information form{
+    width: 70%;
+    margin-left: 15%;
+  }
+  .information form h5{
+    margin-bottom: 5px;
+    
+  }
+  .information form input{
+    width: 100%;
+    padding: auto;
+    height: 30px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: none ;
+    border-bottom: 1px white solid;
+  }
+  .information form input::placeholder {
+    font-weight: 800;
+  }
+  .price{
+    text-align: center;
+  }
+  .selections{
+    width: 70%;
+    background: transparent;
+    margin-bottom: 30px;
+    height: 30px;
+    font-weight: 900; 
+    border: none;
+    border-bottom: 1px white solid;
+  }
+  .select h5{
+    margin-bottom: 5px;
+  }
+  button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px black;
+    font-size: large;
+  }
+  button:hover{
+    background-color: green;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px 0px 20px green,
+                0px 0px 40px yellow,
+                0px 0px 80px orangered;
+  }
+  .users-logo{
+    height: 35px;
+    border: 1px solid;
+      border-radius: 20px;
+      margin-right: 15px;
+  }
+  .img{
+    width: 200px;
+    height: 100px;
+    border: 0.5px solid;
+    border-radius: 20px;
+  }
+  table{
+    width: 100%;
+  }
+  tbody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  tr{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  th{
+    text-align: center;
+    margin-right: 10px ;
+  }
+  .th2{
+    width: 60%;
+  }
+  td{
+    text-align: center;
+    margin-right: 10px;
+  }
+  .td1{
+    width: 60%;
+  }
+  .product-cell{
+    display: flex;
+    flex-direction: row;
+  }
+  .product-cell p{
+    margin-top: 0px;
+    font-size: x-large ;
+    margin-left: 20px;
+  }
+  .quantity-cell button{
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    box-shadow: none;
+  }
